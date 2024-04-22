@@ -1,0 +1,114 @@
+server 
+# npm init -y 
+# npm i typescript ts-node-dev express @types/express 
+# npm install -g typescript
+# npm config get prefix
+# sudo chown -R $(whoami) /usr/local
+# tsc --init 
+
+
+#thisisunsafe
+
+
+# npm install --save express-validator (typescript validator)
+# npm install express-async-errors 
+# npm install mongosse
+# npm install cookie-session @types/cookie-session
+# npm install jsonwebtoken @types/jsonwebtoken
+
+
+
+
+
+# kubectl create secret generic jwt-secret --from-literal=jwt=asdf
+
+
+
+
+/*
+cookieSession middleware'ini kullanıyorsunuz. Bu, bir Express.js uygulamasında oturum yönetimi için kullanılan bir ara yazılımdır. İşlevselliği sağlamak için cookie-session modülü gereklidir. Bu modül, sunucu tarafında oturum bilgilerini saklamak için istemciye bir çerez gönderir.
+
+İlgili seçeneklerin anlamları:
+
+signed: Bu, sunucu tarafından oluşturulan çerezlerin imzalanıp imzalanmayacağını belirtir. İmzalanan çerezler, istemci tarafından değiştirilemez ve sunucu tarafından verilerin bütünlüğünün doğrulanmasına olanak tanır. Bu genellikle güvenlik için kullanılır.
+
+secure: Bu, sadece HTTPS üzerinden iletişimde çerezin gönderilip gönderilmeyeceğini belirtir. secure seçeneği true olarak ayarlandığında, çerez yalnızca güvenli (HTTPS) bağlantılar üzerinden iletilir. Bu, çerezin güvenliğini artırır ve ortadaki adam saldırılarına karşı koruma sağlar.
+
+Bu ayarlar, Express.js uygulamanızda oturum güvenliğini sağlamak için önemlidir. İmzalı çerezler, oturum bilgilerinin değiştirilmesini önlerken, yalnızca güvenli bağlantılar üzerinden çerezlerin iletilmesi, oturum bilgilerinin güvenliğini artırır. */
+
+
+
+
+# npm install --save-dev @types/jest @types/supertest ts-jest supertest mongodb-memory-server
+
+
+
+# npm install react react-dom next@13
+
+
+
+# npm install bootstrap
+# npm install axios
+
+
+c.akar@192 ticketing % kubectl get namespace
+NAME              STATUS   AGE
+default           Active   11d
+ingress-nginx     Active   6d2h
+kube-node-lease   Active   11d
+kube-public       Active   11d
+kube-system       Active   11d
+
+
+
+# kubectl get services -n ingress-nginx
+
+
+# base common mimariyi npmjs üzerinde bir user açtık ve orda repoladık ordan npm i yapacağız
+git init -y
+git init 
+git add .
+git commit -m "initial commit" 
+npm adduser or npm login 
+npm publish --access public 
+tsc --init
+npm i typescript del-cli --save-dev
+
+
+
+
+#
+c.akar@192 common % git add .
+c.akar@192 common % git commit -m "additional config"
+c.akar@192 common % npm version patch
+v1.0.1
+npm run build
+npm publish 
+
+
+
+
+
+# npm install @catickets30/common
+
+
+
+# kubectl get pods
+# kubetctl exec -it pod-name sh
+
+
+
+
+
+# nats-test
+# npm install node-nats-streaming ts-node-dev typescript @types/node
+
+
+
+
+kubectl port-forward nats-depl-69d7b5b8c4-dqj24 4222:4222
+# dışarıya açıyoruz
+
+
+
+http://localhost:8222/streaming/clientsz?subs=1
